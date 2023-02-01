@@ -1,7 +1,5 @@
-from database import Base, SessionLocal
-from sqlalchemy import Table, Column, Integer, String, func, TIMESTAMP, ForeignKey
-from table_user import User
-from table_post import Post
+from schema.database import Base
+from sqlalchemy import Column, Integer, String, TIMESTAMP, ForeignKey
 from sqlalchemy.orm import relationship
 
 class Feed(Base):

@@ -1,5 +1,5 @@
-from database import Base, SessionLocal
-from sqlalchemy import Table, Column, Integer, String
+from schema.database import Base
+from sqlalchemy import Column, Integer, String
 
 class Post(Base):
     __tablename__ = "post"
